@@ -3,6 +3,20 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Cits_Base_Center">
+      <HintPath>..\..\..\AllProject\WebBackend\WebBackend\WebBackend\Cits_Base_Center\bin\Debug\netcoreapp2.0\Cits_Base_Center.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSale">
+      <HintPath>..\..\..\AllProject\WebBackend\WebBackend\WebBackend\WebSale\bin\Debug\netcoreapp2.0\WebSale.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
